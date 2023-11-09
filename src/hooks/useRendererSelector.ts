@@ -20,7 +20,7 @@ export const useRendererSelector = (): {
       setCurrentRenderer(undefined);
       return;
     }
-
+    console.log(currentDocument.fileType)
     const matchingRenderers: DocRenderer[] = [];
 
     pluginRenderers?.forEach((r) => {

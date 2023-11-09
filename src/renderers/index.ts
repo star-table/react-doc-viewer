@@ -9,6 +9,7 @@ import TXTRenderer from "./txt";
 import CSVRenderer from "./csv";
 import GIFRenderer from "./gif";
 import VideoRenderer from "./video";
+import XmindRenderer from "./xmind";
 
 export const DocViewerRenderers = [
   BMPRenderer,
@@ -22,6 +23,7 @@ export const DocViewerRenderers = [
   CSVRenderer,
   GIFRenderer,
   VideoRenderer,
+  XmindRenderer,
 ];
 
 export {
@@ -36,4 +38,5 @@ export {
   CSVRenderer,
   GIFRenderer,
   VideoRenderer,
+  XmindRenderer,
 };

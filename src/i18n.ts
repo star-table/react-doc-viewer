@@ -1,3 +1,4 @@
+import zh from "./locales/zh.json";
 import en from "./locales/en.json";
 import pl from "./locales/pl.json";
 import es from "./locales/es.json";
@@ -12,6 +13,7 @@ import ja from "./locales/ja.json";
 import ru from "./locales/ru.json";
 
 export const locales = {
+  zh,
   en,
   pl,
   es,
@@ -27,4 +29,4 @@ export const locales = {
 };
 
 export type AvailableLanguages = keyof typeof locales;
-export const defaultLanguage: AvailableLanguages = "en";
+export const defaultLanguage: AvailableLanguages = "zh";

@@ -1,0 +1,10 @@
+{
+  "documentNavInfo": " {{ currentFileNo }} / {{ allFilesCount }}",
+  "noRendererMessage": "不支持的文件类型: {{{ fileType }}}",
+  "downloadButtonLabel": "下载文件",
+  "brokenFile": "文件已损坏. 请检查您电脑里的源文件.",
+  "msgPluginRecipients": "Recipients",
+  "msgPluginSender": "发送",
+  "pdfPluginLoading": "加载中...",
+  "pdfPluginPageNumber": "页码: {{ currentPage }}/{{ allPagesCount }}"
+}
